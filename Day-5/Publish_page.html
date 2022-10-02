@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/51e4b8f56d.js" crossorigin="anonymous"></script>
+    <title>Publish Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <style>
+        #container{
+        margin: 2% 5% 0 5%;
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .first{
+            display: flex;
+        }
+        .first>img:first-child{
+            width: 25%;
+            height: 80%;
+        }
+        .first>img:last-child{
+        margin-top: 15px;
+        }
+        .second{
+        /* border: 2px solid blue; */
+            display: flex;
+            margin-right: 15%;
+            margin-top: 15px;
+        }
+        .second>div{
+        padding-right: 20px;
+        }
+        .second a{
+            text-decoration: none;
+        }
+        .second a:hover{
+            cursor: pointer;
+            color: blue;
+        }
+        .third{
+            display: flex;
+            
+        }
+        .third>p{
+        width: 80px;
+        color: blue;
+        }
+        .third>button{
+            width: 180px;
+            background-color: blue;
+            color: white;
+            border-radius: 8px;
+        }
+        #container-1{
+            /* border: 1px solid red; */
+            margin: 10% 5% 0 5%;
+        }
+        .first-1{
+            /* border: 1px solid royalblue; */
+            display: flex;
+            
+        }
+        video{
+            width: 40%;
+            margin-left: 40%;
+        }
+        .second-1{
+            display: flex;
+            padding: 5%;
+            margin-left: 5%;
+        }
+        .second-1>div{
+            width:10% ;
+            margin: 20px;
+            
+        }
+        #container-2{
+            /* border: 2px solid gold; */
+          text-align: center;
+          /* margin: 0 5% 0 5%; */
+        }
+        #container-2>img{
+            width: 100%;
+        }
+        #container-3{
+            /* border: 2px solid yellow; */
+            margin: 0 5% 0 5%;
+        }
+        .first-3{
+            /* border: 3px solid green; */
+            display: flex;
+            justify-content: space-between;
+        }
+        .first-3>div:last-child>img{
+            width: 70%;
+            margin-left: 20%;
+        }
+        .second-3{
+            /* border: 1px solid rosybrown; */
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: auto;
+            gap: 30px;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-top: 5%;
+        }
+        .second-3>div>div:first-child{
+            width: 20%;
+            
+        }
+        #container-4{
+            /* border: 2px solid red; */
+            display: flex;
+            
+            margin: 10% 5% 0 5%;
+        }
+        #container-4>div:first-child{
+            margin-top: 5%;
+        }
+        #container-4>div:first-child>h2{
+            margin-top: 50px;
+        }
+        #container-4>div:first-child>p{
+            margin-top: 50px;
+        }
+        #container-4>div:last-child>img{
+            width: 70%;
+            margin-left: 20%;
+        }
+        #container-5{
+            background-color: rgb(44, 75, 255);
+            text-align: center;
+            /* height: 400px; */
+            color: white;
+            margin: 10% 5% 0 5%;
+        }
+        #container-5>h2{
+            padding-top: 80px;
+            padding-bottom: 40px;
+
+        }
+        #container-5>button{
+            margin-top: 80px;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: rgba(255, 166, 0, 0.829);
+            border-radius: 10px;
+        }
+        #container-5>p{
+            margin-top: 80px;
+            margin-bottom: 40px;
+            padding: 20px;
+        }
+         button{
+             background-color:rgb(44, 75, 255); 
+             color: white;
+             border-radius: 5px;
+             padding: 2%;
+         }
+
+         #container-6{
+            display: flex;
+            flex-flow: row;
+        }
+        #container-6>div>img{
+            width: 90%;
+            margin-top: 50px;
+        }
+        .second-part_6{
+            display: grid;
+            grid-template-columns: repeat(2,2fr);
+            grid-template-rows: auto;
+            gap: 20px;
+        }
+        .second-part_6>div>div{
+            width: 30%;
+        }
+        #container-7{
+            margin-top: 80px;
+            display: flex;
+        }
+        #container-7>div>img{
+            padding-left: 80px;
+            width: 50%;
+        }
+        #container-7>div:last-child{
+            padding: 100px 80px;
+        }
+        #container-8{
+            margin-top: 80px;
+            display: flex;
+        }
+        #container-8>div>img{
+            width: 80%;
+        }
+        #container-8>div:first-child{
+            margin-left: 50px;
+        }
+        #container-8>div:first-child>p:first-child{
+            color: blue;
+            padding-bottom: 20px;
+            padding-top: 40px;
+        }
+        #container-8>div:first-child>h2{
+            padding-bottom: 20px;
+        }
+        #container-9{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: auto;
+            gap: 20px;
+            margin-top: 80px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        #container-9>div>img{
+            width: 100%;
+        }
+        #container-9>div>h4{
+            margin-left:50px ;
+        }
+        #container-9>div>p{
+            margin-left:50px ; 
+        }
+        #container-10{
+            background-color: rgb(44, 75, 255);
+            text-align: center;
+            /* height: 400px; */
+            color: white;
+        }
+        #container-10>h2{
+            padding-top: 80px;
+            padding-bottom: 40px;
+
+        }
+        #container-10>button{
+            margin-top: 30px;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 12px;
+            background-color: rgb(248, 178, 47);
+        }
+        #container-10>p{
+            margin-top: 80px;
+            margin-bottom: 40px;
+            padding: 20px;
+        }
+        #container-11{
+            display: flex;
+            margin-left: 10%;
+        }
+        #container-11>div{
+            width: 2%;
+            
+        }
+        .first-11>div{
+            display: flex;
+        }
+        .first-11>div>div{
+            padding-right: 10px;
+        }
+        .third-11>a{
+            padding-bottom: 100px;
+        }
+        .third-11>button{
+            width: 100px;
+            background-color: transparent;
+            color: rgb(44, 75, 255);
+            border: none;
+        }
+        .third-11>button>svg{
+            width: 40%;
+            color: rgb(44, 75, 255);
+        }
+        .second-11{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: auto;
+            gap: 80px;
+            margin-left: 350px;
+            
+        }
+        .second-11>div>a{
+           padding-top: 20px;
+           text-decoration: none;
+           color: black;
+           line-height: 1.8em;
+           
+        }
+        .second-11>div>a:hover{
+            cursor: pointer;
+            color: blue;
+        }
+        .third-11{
+            display: flex;
+        } 
+
+        
+    </style> -->
+</head>
+<body>
+    <div id="container">
+        <div class="first">
+            <img onclick="my()" src="https://seekvectorlogo.net/wp-content/uploads/2020/02/buffer-inc-vector-logo.png" alt=""><a href="index.html"></a>
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDgwMCI+DQo8cGF0aCBmaWxsPSIjM2E3NWM0IiBkPSJtMCwwaDEyMDB2ODAwaC0xMjAweiIvPg0KPHBhdGggZmlsbD0iI2Y5ZGQxNiIgZD0ibTAsNDAwaDEyMDB2NDAwaC0xMjAweiIvPg0KPC9zdmc+DQo=" alt="" width="20" height="16">
+        </div>
+        <div class="second">
+            <div> Tools</div>
+            <div>Channels</div>
+            <div>Pricing</div>
+            <div>Blog</div>
+            <div>About</div>
+            <div>Customers</div>
+        </div>
+        <div class="third">
+            <p>Log in</p>
+            <button>Get started now</button>
+        </div>
+
+    </div>
+
+    <div id="container-1">
+        <div class="first-1">
+            <div>
+                <h1>Build your audience and grow your brand on social media</h1>
+                <p>Plan and publish your content for Instagram, TikTok, Facebook, Twitter, Pinterest, and LinkedIn, all from one simple dashboard.</p>
+                <button>Get Started Now</button>
+            </div>
+            <div>
+                <video src="https://buffer.com/static/animation/hero-buffer-publish-animation-v2.mp4"></video>
+            </div>
+        </div>
+        <div class="second-1">
+            <div> <svg viewBox="0 0 98 16" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><g fill="#B8B8B8" fill-rule="evenodd"><path d="M18.159.966a8.36 8.36 0 0 1 .444 2.706v1.865h-4.668V.687h-3.761l.1.281c.297.874.444 1.799.444 2.721v9.386h3.217V8.21h4.668v4.866h3.217V.688h-3.761l.1.278zM37.245 5.09c.991 0 1.47.545 1.616 1.799l2.853-.166c-.149-1.137-.395-1.716-1.071-2.458-.857-.924-2.014-1.403-3.515-1.403-3.067 0-5.13 2.111-5.13 5.262 0 3.085 1.98 5.13 4.967 5.13 1.681 0 2.985-.561 3.86-1.699.528-.644.742-1.171.874-2.243l-2.853-.165c-.18 1.171-.742 1.715-1.698 1.715-1.22 0-1.716-.825-1.716-2.838-.002-1.994.56-2.934 1.813-2.934zM28.32 8.702c0 .527.05 1.204-.28 1.65a1.751 1.751 0 0 1-1.352.676c-.776 0-1.122-.412-1.122-1.286V3.077h-2.87v6.665c0 1.403.131 1.896.56 2.506.513.725 1.436.957 2.26 1.006 1.09.083 2.458-.132 3.12-1.123.1.396.231.874.246.94h2.36V3.075l-2.953.017.032 5.61zM52.322 3.077h-2.984s-3.761 4.354-3.959 4.586V.685h-3.431l.1.298a8.36 8.36 0 0 1 .444 2.706v9.403h2.87V10.52l1.782-1.98 2.16 4.537h3.382L49.304 6.48l3.018-3.402zM77.132 4.959V3.077h-2.804v9.996h2.97V8.998c0-2.08.857-3.185 3.019-3.185V2.86c-1.255.004-2.756.68-3.185 2.099zM84.043 4.959V3.077H81.24v9.996h2.97V8.998c0-2.08.857-3.185 3.019-3.185V2.86c-1.254.004-2.738.68-3.185 2.099zM94.85 3.077l-1.914 5.674-1.896-5.674H87.92l3.597 9.996-.925 2.853h2.392c.28-.808 3.893-11.514 4.354-12.866h-2.492v.017h.002z"></path><path d="M59.168 2.896c-1.089 0-1.896.413-2.558 1.452V.685h-3.597l.1.298c.298.874.445 1.782.445 2.69v9.402h2.425c0-.017.15-.544.264-.973.71.89 1.403 1.171 2.59 1.171 2.623 0 4.172-1.947 4.172-5.247.02-3.15-1.466-5.13-3.841-5.13zm.742 5.757c-.034.479-.115 1.057-.313 1.55-.246.593-.676 1.04-1.418 1.04-.973 0-1.583-.791-1.583-2.111v-1.65c0-1.435.61-2.343 1.615-2.343 1.748-.015 1.782 2.277 1.699 3.514zM73.6 8.587c-.016-1.764-.23-2.589-.841-3.58-.776-1.303-2.326-2.11-4.058-2.11-2.97 0-4.998 2.16-4.998 5.278 0 3.05 2.045 5.098 5.112 5.098 1.518 0 2.624-.43 3.532-1.352.512-.527.79-.974 1.088-1.816l-2.755-.18c-.264.825-.857 1.269-1.765 1.269-1.203 0-1.996-.857-1.996-2.145 0-.083 0-.298.017-.462h6.665zM68.853 4.81c1.105 0 1.615.61 1.75 2.045h-3.664c.147-1.384.76-2.045 1.914-2.045z" fill-rule="nonzero"></path><path d="M6.167 5.073l-.264-.33.346.233c.776.495 1.55.94 2.31 1.32a7.735 7.735 0 0 0 .297-1.633C6.464 2.569 5.226.622 4.897.06 4.567.622 3.347 2.567.94 4.663c.049.544.149 1.088.298 1.633a25.06 25.06 0 0 0 2.308-1.32l.347-.232-.264.33A23.009 23.009 0 0 1 .395 8.306c.017.578.1 1.154.246 1.715 1.418-.527 2.673-1.137 4.24-1.979L3.527 9.66v.115c0 1.122-.18 2.243-.544 3.3h3.81a10.226 10.226 0 0 1-.545-3.3V8.768c.808.413 1.65.791 2.87 1.27a9.902 9.902 0 0 0 .247-1.716 24.398 24.398 0 0 1-3.2-3.249z"></path></g></svg></div>
+            <div><svg width="100%" height="100%" viewBox="0 0 152 44" version="1.1" xmlns="http://www.w3.org/2000/svg" space="preserve" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.41421"><g fill="#B8B8B8" fill-rule="nonzero"><path id="s_5_" d="M53.029 24.522c-1.286-.71-1.962-1.286-1.962-2.098 0-1.049.913-1.692 2.369-1.692 1.692 0 3.181.711 3.181.711l1.184-3.621s-1.083-.846-4.298-.846c-4.467 0-7.58 2.572-7.58 6.159 0 2.03 1.455 3.587 3.384 4.704 1.557.88 2.098 1.523 2.098 2.436 0 .982-.778 1.76-2.233 1.76-2.166 0-4.197-1.117-4.197-1.117l-1.252 3.621s1.895 1.252 5.042 1.252c4.603 0 7.885-2.267 7.885-6.328.068-2.233-1.624-3.79-3.621-4.941z"></path><path id="h_5_" d="M71.371 16.908c-2.267 0-4.027 1.083-5.414 2.707l-.068-.034 1.963-10.287h-5.144l-4.975 26.159h5.11l1.692-8.934c.677-3.384 2.403-5.449 4.028-5.449 1.15 0 1.59.779 1.59 1.895 0 .711-.068 1.557-.237 2.268l-1.929 10.254h5.11l1.997-10.559c.237-1.116.372-2.436.372-3.35.068-2.944-1.421-4.67-4.095-4.67z"></path><path id="o_5_" d="M87.108 16.908c-6.159 0-10.254 5.55-10.254 11.743 0 3.959 2.436 7.174 7.039 7.174 6.057 0 10.118-5.414 10.118-11.743.034-3.688-2.098-7.174-6.903-7.174zm-2.505 14.958c-1.759 0-2.47-1.489-2.47-3.351 0-2.944 1.523-7.715 4.298-7.715 1.827 0 2.403 1.556 2.403 3.079 0 3.181-1.523 7.987-4.231 7.987z"></path><path id="p_5_" d="M107.142 16.908c-3.452 0-5.415 3.046-5.415 3.046h-.068l.305-2.742h-4.535c-.237 1.862-.643 4.671-1.049 6.803l-3.553 18.68h5.11l1.421-7.58h.102s1.049.676 3.012.676c6.023 0 9.949-6.159 9.949-12.386 0-3.418-1.523-6.497-5.279-6.497zm-4.873 15.059c-1.32 0-2.099-.744-2.099-.744l.846-4.772c.61-3.181 2.268-5.313 4.028-5.313 1.556 0 2.03 1.455 2.03 2.809 0 3.283-1.963 8.02-4.805 8.02z"></path><path id="dot_5_" d="M119.731 9.564c-1.625 0-2.945 1.286-2.945 2.978 0 1.523.948 2.572 2.403 2.572h.068c1.59 0 2.978-1.083 3.012-2.978.034-1.523-.982-2.572-2.538-2.572z"></path><path id="i_5_" d="M112.556 35.453h5.144l3.486-18.139h-5.178l-3.452 18.139z"></path><path id="f_5_" d="M134.181 17.28h-3.553l.169-.846c.304-1.76 1.32-3.316 3.046-3.316.913 0 1.624.27 1.624.27l1.015-3.993s-.88-.44-2.775-.44c-1.827 0-3.621.508-5.008 1.692-1.76 1.489-2.572 3.621-2.978 5.787l-.136.846h-2.369l-.744 3.858h2.369l-2.708 14.315h5.11l2.708-14.315h3.519l.711-3.858z"></path><path id="y_5_" d="M146.499 17.314s-3.215 8.054-4.636 12.454h-.068c-.101-1.422-1.252-12.454-1.252-12.454h-5.381l3.08 16.65c.068.372.034.609-.102.846-.609 1.151-1.59 2.267-2.775 3.08-.947.71-2.03 1.15-2.876 1.455l1.421 4.331c1.049-.237 3.181-1.083 5.009-2.775 2.335-2.199 4.501-5.55 6.7-10.152l6.261-13.435h-5.381z"></path><path d="M26.092 5.537s-.474.136-1.252.372a10.02 10.02 0 0 0-.61-1.489c-.879-1.692-2.199-2.605-3.756-2.605-.101 0-.203 0-.338.034-.034-.068-.102-.102-.136-.17C19.323.935 18.444.596 17.394.63c-2.03.068-4.06 1.523-5.685 4.129-1.15 1.827-2.03 4.129-2.267 5.922-2.335.711-3.96 1.218-3.993 1.252-1.185.372-1.219.406-1.354 1.523-.102.846-3.215 24.67-3.215 24.67l25.584 4.434V5.503c-.203 0-.305.034-.372.034zm-5.923 1.828c-1.353.406-2.842.88-4.297 1.319.406-1.59 1.218-3.181 2.165-4.23.373-.372.88-.812 1.456-1.083.575 1.219.71 2.877.676 3.994zm-2.775-5.347c.474 0 .88.101 1.219.304-.542.271-1.083.711-1.591 1.219-1.286 1.387-2.267 3.553-2.673 5.617-1.219.372-2.437.745-3.554 1.083.745-3.249 3.486-8.156 6.599-8.223zM13.469 20.63c.135 2.166 5.854 2.64 6.193 7.75.237 4.027-2.132 6.768-5.55 6.971-4.129.271-6.396-2.165-6.396-2.165l.88-3.723s2.267 1.726 4.095 1.591c1.184-.068 1.624-1.05 1.59-1.726-.169-2.843-4.839-2.674-5.144-7.344-.271-3.925 2.301-7.885 7.987-8.257 2.199-.136 3.316.406 3.316.406l-1.286 4.873s-1.455-.677-3.181-.541c-2.504.169-2.538 1.759-2.504 2.165zm8.054-13.671c0-1.016-.135-2.471-.609-3.689 1.557.304 2.301 2.03 2.64 3.079-.61.17-1.286.373-2.031.61zM27.242 42.492l10.626-2.64S33.3 8.955 33.266 8.752a.394.394 0 0 0-.372-.338c-.169 0-3.147-.068-3.147-.068s-1.828-1.76-2.505-2.437v36.583z"></path></g></svg></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 116 24"><path fill="#B8B8B8" fill-rule="evenodd" d="M103.294 20.259l3.882-3.416c4.235-3.63 7.056-6.83 7.056-10.643 0-4.283-3.907-6.2-7.778-6.2-4.716 0-6.473 2.334-6.473 3.804 0 1.045.761 1.833 1.772 1.833 1.034 0 1.734-.66 1.92-1.812l.035-.22c.2-1.282.405-2.608 2.716-2.608 2.514 0 3.686 1.634 3.686 5.143 0 3.46-1.285 6.198-4.743 10.103l-6.496 7.41h14.885c.717 0 .87-.246 1.122-.945l.914-2.449h-12.498zM91.123 8.315c-1.652.026-3.408.588-4.63 1.353l.748-6.058 9.186-.145c.636-.01.768-.25.982-.927l.724-2.204-11.36.012-1.399 10.505.32.231.026.02.284.206.19-.181c.851-.806 2.4-1.775 4.945-1.816 3.576-.056 4.172 3.822 4.209 6.139.057 3.585-1.217 7.437-4.963 7.497-2.663.042-2.845-1.253-3.056-2.752l-.05-.34c-.215-1.026-.901-1.607-1.883-1.591-.975.016-1.7.75-1.685 1.708.037 2.286 2.975 4.03 6.69 3.972 5.332-.085 9.024-3.591 8.977-8.528-.085-5.337-4.5-7.16-8.255-7.101zM78.822 11.7c0-8.962-5.291-10.422-10.2-10.422h-.823v21.53h.823c6.712 0 10.2-3.378 10.2-11.108zm4.176.03c0 7.501-5.717 11.804-14.376 11.804H62.34v-.245l.226-.065c1.213-.346 1.326-1.154 1.326-7.315V8.118c0-5.948-.106-6.89-1.224-7.282l-.016-.002h.008a2.621 2.621 0 0 0-.1-.033l-.22-.067V.522h6.282c8.787 0 14.376 3.98 14.376 11.208zm-32.37 11.6c3.955 0 7.034-3.375 7.034-11.226 0-7.85-3.274-11.134-7.034-11.134-3.761 0-7.036 3.284-7.036 11.135s3.08 11.225 7.036 11.225zm11.23-11.226c0 7.347-5.83 11.895-11.23 11.895-5.402 0-11.232-4.548-11.232-11.895C39.396 6.428 43.69.3 50.627.3S61.86 6.428 61.86 12.105zM26.37 23.33c3.955 0 7.035-3.374 7.035-11.225C33.405 4.254 30.13.97 26.37.97c-3.76 0-7.035 3.284-7.035 11.135s3.08 11.225 7.035 11.225zm11.231-11.225C37.601 19.452 31.771 24 26.37 24s-11.231-4.548-11.231-11.895C15.139 6.428 19.433.3 26.369.3c6.938 0 11.232 6.128 11.232 11.805zM5.46 1.452v8.765l3.15.025c2.946 0 2.94-1.352 3.219-3.036h.265v7.157h-.265c-.28-1.684-.273-3.036-3.218-3.036l-3.15.022v4.659c0 6.186.111 6.993 1.32 7.313l.231.062v.25H0v-.25l.232-.062c1.208-.32 1.32-1.127 1.32-7.313V8.216c0-6.187-.112-6.994-1.32-7.314L0 .84V.62h14.636c.576 0 .77.21.904.975l.5 3.29h-.342l-.027-.065c-.822-2.493-2.313-3.368-6.14-3.368H5.459z"></path></svg></div>
+            <div><svg width="100%" height="100%" viewBox="0 0 567 171" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="none" stroke-width="1" fill="#B8B8B8" fill-rule="evenodd"><path d="M137.532 76.477c-26.994-16.031-71.52-17.505-97.289-9.684a7.831 7.831 0 0 1-9.768-5.219 7.835 7.835 0 0 1 5.221-9.771c29.581-8.979 78.755-7.245 109.831 11.202a7.831 7.831 0 0 1 2.737 10.733c-2.208 3.722-7.019 4.949-10.732 2.739zm-.884 23.744c-1.893 3.073-5.911 4.036-8.98 2.15-22.505-13.834-56.822-17.841-83.447-9.759-3.453 1.043-7.1-.904-8.148-4.35a6.538 6.538 0 0 1 4.353-8.143c30.416-9.229 68.226-4.759 94.074 11.126 3.069 1.89 4.035 5.91 2.148 8.976zm-10.247 22.803a5.215 5.215 0 0 1-7.176 1.737c-19.666-12.019-44.418-14.734-73.568-8.075a5.217 5.217 0 0 1-6.249-3.925 5.212 5.212 0 0 1 3.925-6.249c31.9-7.293 59.264-4.154 81.337 9.334a5.22 5.22 0 0 1 1.731 7.178zM87.996 2.237c-46.25 0-83.744 37.492-83.744 83.742 0 46.253 37.494 83.744 83.744 83.744 46.251 0 83.743-37.491 83.743-83.744 0-46.25-37.492-83.742-83.743-83.742z" fill="#B8B8B8"></path><path d="M232.089 79.546c-14.459-3.448-17.034-5.868-17.034-10.952 0-4.805 4.524-8.037 11.25-8.037 6.52 0 12.984 2.455 19.763 7.509a.945.945 0 0 0 .715.174.933.933 0 0 0 .625-.386l7.06-9.952a.949.949 0 0 0-.18-1.288c-8.067-6.473-17.151-9.62-27.769-9.62-15.612 0-26.517 9.369-26.517 22.774 0 14.375 9.407 19.465 25.663 23.394 13.836 3.187 16.171 5.856 16.171 10.63 0 5.289-4.722 8.577-12.321 8.577-8.439 0-15.324-2.843-23.025-9.512a.997.997 0 0 0-.695-.226.94.94 0 0 0-.649.334l-7.916 9.421a.94.94 0 0 0 .093 1.313c8.961 7.999 19.98 12.225 31.872 12.225 16.823 0 27.694-9.193 27.694-23.42 0-12.024-7.184-18.674-24.8-22.958" fill="#B8B8B8"></path><path d="M307.162 95.661c0 10.153-6.254 17.238-15.209 17.238-8.853 0-15.531-7.407-15.531-17.238 0-9.83 6.678-17.238 15.531-17.238 8.811 0 15.209 7.248 15.209 17.238zM294.95 65.286c-7.292 0-13.273 2.872-18.205 8.757v-6.624a.949.949 0 0 0-.947-.949h-12.946a.948.948 0 0 0-.946.949v73.602c0 .523.423.949.946.949h12.946a.949.949 0 0 0 .947-.949v-23.232c4.933 5.536 10.915 8.24 18.205 8.24 13.549 0 27.265-10.43 27.265-30.368 0-19.942-13.716-30.375-27.265-30.375z" fill="#B8B8B8"></path><path d="M357.373 113.005c-9.281 0-16.278-7.457-16.278-17.344 0-9.928 6.755-17.134 16.064-17.134 9.341 0 16.385 7.457 16.385 17.351 0 9.927-6.801 17.127-16.171 17.127zm0-47.719c-17.449 0-31.119 13.436-31.119 30.592 0 16.969 13.576 30.264 30.905 30.264 17.511 0 31.223-13.391 31.223-30.481 0-17.033-13.618-30.375-31.009-30.375z" fill="#B8B8B8"></path><path d="M425.644 66.47h-14.247V51.904a.946.946 0 0 0-.945-.948h-12.945a.95.95 0 0 0-.95.948V66.47h-6.225a.946.946 0 0 0-.943.949v11.127c0 .522.421.948.943.948h6.225v28.792c0 11.635 5.791 17.534 17.212 17.534 4.644 0 8.497-.959 12.128-3.018a.945.945 0 0 0 .479-.821v-10.596a.951.951 0 0 0-1.372-.85c-2.494 1.255-4.905 1.834-7.6 1.834-4.153 0-6.007-1.885-6.007-6.112V79.494h14.247a.946.946 0 0 0 .944-.948V67.419a.946.946 0 0 0-.944-.949" fill="#B8B8B8"></path><path d="M475.281 66.527v-1.789c0-5.263 2.018-7.61 6.544-7.61 2.699 0 4.867.536 7.295 1.346a.946.946 0 0 0 1.245-.902v-10.91a.948.948 0 0 0-.669-.909c-2.565-.762-5.847-1.546-10.761-1.546-11.959 0-18.279 6.734-18.279 19.467v2.74h-6.22a.952.952 0 0 0-.95.948v11.184c0 .522.428.948.95.948h6.22v44.41c0 .523.422.948.944.948h12.946a.95.95 0 0 0 .949-.948v-44.41h12.088l18.517 44.398c-2.102 4.665-4.169 5.593-6.991 5.593-2.281 0-4.683-.681-7.139-2.025a.972.972 0 0 0-.754-.071.959.959 0 0 0-.56.512l-4.388 9.627a.941.941 0 0 0 .407 1.225c4.581 2.481 8.717 3.54 13.827 3.54 9.56 0 14.844-4.454 19.503-16.434l22.461-58.04a.946.946 0 0 0-.879-1.292h-13.478a.951.951 0 0 0-.897.636L513.405 106.6l-15.123-39.463a.943.943 0 0 0-.884-.61h-22.117" fill="#B8B8B8"></path><path d="M446.505 66.47h-12.947a.95.95 0 0 0-.948.949v56.485c0 .523.425.948.948.948h12.947a.95.95 0 0 0 .948-.948V67.419a.95.95 0 0 0-.948-.949" fill="#B8B8B8"></path><path d="M440.097 40.751c-5.128 0-9.291 4.153-9.291 9.282 0 5.131 4.163 9.288 9.291 9.288 5.127 0 9.285-4.157 9.285-9.288 0-5.129-4.158-9.282-9.285-9.282" fill="#B8B8B8"></path><path d="M554.049 72.089h-2.372v3.025h2.372c1.184 0 1.891-.579 1.891-1.514 0-.984-.707-1.511-1.891-1.511zm1.538 4.315l2.577 3.608h-2.173l-2.32-3.309h-1.994v3.309h-1.819v-9.563h4.265c2.221 0 3.683 1.136 3.683 3.05 0 1.568-.906 2.526-2.219 2.905zm-2.02-9.138c-4.667 0-8.199 3.71-8.199 8.253 0 4.54 3.507 8.201 8.151 8.201 4.666 0 8.201-3.708 8.201-8.253 0-4.541-3.509-8.201-8.153-8.201zm-.048 17.365c-5.124 0-9.111-4.115-9.111-9.112 0-4.998 4.039-9.159 9.159-9.159a9.074 9.074 0 0 1 9.111 9.107c0 4.997-4.036 9.164-9.159 9.164z" fill="#B8B8B8"></path></svg></div>
+            <div><svg viewBox="0 0 108 23" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><g fill="#B8B8B8"><path d="M18.499.218H23.5v8.269l.15.041c.102-.174.207-.347.307-.522 1.015-1.776 2.892-2.524 4.847-1.931 1.422.431 2.316 1.63 2.385 3.339.058 1.415.01 2.834.035 4.25.024 1.379-.369 2.895 1.164 3.878h-5.816c-.005-.054-.029-.13-.012-.14 1.113-.676 1.259-1.738 1.226-2.91-.038-1.341.004-2.685-.013-4.027-.017-1.427-.537-2.154-1.611-2.31-1.098-.159-2.053.499-2.422 1.742-.146.493-.205 1.022-.226 1.538-.036.869-.008 1.74-.011 2.61-.005 1.285-.206 2.638 1.198 3.494h-5.839c.011-.072-.001-.176.035-.198 1.056-.621 1.165-1.612 1.155-2.711-.031-3.504-.011-7.009-.011-10.514 0-2.29 0-2.29-1.542-3.898" fill-rule="nonzero"></path><path d="M1.276 21.657H107.5v.94H1.276z"></path><path d="M70.72 12.175c.179.19.367.372.536.57.79.92 1.498 1.927 2.38 2.746 1.187 1.104 2.676 1.371 4.245.984 1.035-.255 1.681-.929 1.822-2.016.146-1.139-.176-2.097-1.241-2.636-.658-.334-1.382-.536-2.079-.789-1.002-.364-2.036-.655-3.003-1.094-1.778-.808-2.704-2.218-2.615-4.202.087-1.956 1.069-3.334 2.873-4.067 2.41-.981 4.76-.754 7.336.691l.841-1.429.213.181v4.917l-.142.066c-.153-.203-.3-.41-.461-.606-.629-.766-1.198-1.595-1.91-2.276-.987-.943-2.213-1.294-3.58-.985-1.048.236-1.788.985-1.924 1.933-.161 1.132.231 2.053 1.27 2.531.963.443 2 .726 3.004 1.08.584.206 1.18.383 1.751.622 1.892.791 2.908 2.217 2.878 4.278-.03 2.111-1.034 3.65-2.986 4.495-2.394 1.037-4.745.804-7.039-.352-.22-.111-.43-.242-.684-.385l-1.141 1.446a26.515 26.515 0 0 1-.246-.11l-.324-5.439.226-.154M7.101 2.515C3.614 1.511 2.197 4.02.71 6.412L.5 6.231l.69-4.963h15.55l.706 4.927-.145.104c-.132-.131-.285-.247-.392-.396-.448-.626-.852-1.286-1.327-1.889-1.216-1.544-2.549-1.974-4.798-1.554v.853c0 3.728.023 7.455-.013 11.182-.012 1.193.268 2.159 1.392 2.733.109.056.239.072.36.107l-.173.219H5.515c.162-.174.245-.317.37-.388.921-.524 1.268-1.341 1.267-2.362-.005-3.976-.001-7.952-.004-11.928-.001-.144-.037-.288-.047-.361M37.606 10.554h4.313c-.192-.907-.316-1.737-.554-2.532-.2-.664-.716-1.083-1.431-1.126-.668-.039-1.205.27-1.568.828-.555.853-.742 1.809-.76 2.83m7.612 1.1h-6.666c-1.104 0-1.104.001-.937 1.12.365 2.456 2.139 3.724 4.495 3.214 1.014-.22 1.704-.855 2.249-1.704.104-.162.354-.229.593-.254-.453 1.938-1.59 3.195-3.488 3.589-2.394.497-4.623.173-6.311-1.803-1.531-1.793-1.718-4.833-.515-7.016 1.1-1.996 3.441-3.141 5.866-2.869 3.171.354 4.929 2.444 4.714 5.723M98.518 17.552h-5.813c0-.095-.019-.171.002-.184 1.155-.711 1.172-1.832 1.163-3.013-.03-3.478-.023-6.957-.005-10.436.007-1.413.156-2.857-1.634-3.531l.171-.141h4.9v.81c0 4.448.008 8.896-.006 13.344-.003 1.199-.013 2.373 1.339 3.007l-.117.144M105.974 17.55h-5.81c0-.097-.018-.174.003-.186 1.168-.704 1.171-1.83 1.161-3.008a740.889 740.889 0 0 1-.004-10.436c.008-1.415.144-2.852-1.617-3.537l.154-.135h4.899v.809c0 4.423.008 8.846-.005 13.269-.003 1.22-.028 2.424 1.219 3.224M91.059 17.555h-5.991c.068-.126.095-.259.173-.304.835-.481 1.068-1.237 1.061-2.143a455.681 455.681 0 0 1-.002-6.404c.005-.915-.298-1.649-1.104-2.129-.124-.074-.268-.114-.403-.169l.16-.212h4.781c0 .573-.003 1.113.001 1.653.017 2.456.055 4.913.044 7.369-.004.904.286 1.592 1.075 2.055.068.04.102.138.205.284M89.992 2.382c-.006 1.165-.849 1.991-2.036 1.996-1.176.006-2.033-.835-2.039-2.001C85.911 1.19 86.815.3 87.998.329c1.176.029 2 .878 1.994 2.053" fill-rule="nonzero"></path></g></svg></div>
+        </div>
+    </div>
+
+    <div id="container-2">
+        <h2>Craft the perfect post for each social network, all in one place</h2>
+        <p>Publishing content on all of your channels shouldn’t be a time-drain. Plan and publish on every channel in one simple-to-use dashboard.</p>
+        <img src="https://buffer.com/static/google-business-profile/webp/screenshot-all-channels.webp" alt="">
+    </div>
+
+    <div id="container-3">
+        <div class="first-3">
+            <div>
+                <div><p>INSTRAGRAM</p></div>
+                <h2>Take your Instagram marketing to the next level</h2>
+                <p>Build your brand on Instagram. Work together with your team to plan, preview, and schedule your upcoming Instagram posts, carousels, and campaigns.</p>
+                <a href="https://buffer.com/instagram">Learn more</a>
+            </div>
+            <div>
+                <img src="https://static.buffer.com/cdn-cgi/image/w=1080,quality=90,format=auto/marketing/static/illustrations/buffer-publish-instagram@2x-2.png" alt="">
+            </div>
+        </div>
+        <div class="second-3">
+            <div>
+                <div><svg width="100%" height="100%" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" space="preserve" fill-rule="evenodd" clip-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3"><g fill="none"><path d="M0 .004h60v59.991H0z"></path><path d="M22.433 30.229l-6.805-6.804L50 10.025 36.601 44.397l-7.686-7.685M10.025 50l30.383-30.383M19.614 50l5.603-5.603M10.025 40.411l5.603-5.602" stroke="#231f20" stroke-width="2px"></path></g></svg></div>
+                <h4>Direct Scheduling</h4>
+                <p>Autopublish your posts, carousels, and Reels directly to Instagram</p>
+            </div>
+            <div>
+                <div><svg width="100%" height="100%" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" space="preserve" fill-rule="evenodd" clip-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3"><g fill="none"><path d="M0 0h60v60H0z"></path><path d="M19.516 50.916l12.48-10.16h12.091a3.628 3.628 0 0 0 3.627-3.626V15.601a3.626 3.626 0 0 0-3.627-3.626h-30.46A3.626 3.626 0 0 0 10 15.601V37.13a3.626 3.626 0 0 0 3.627 3.626h5.889M18.762 27.225h20.444M18.762 21h20.444M18.762 32.99h11.682M35.545 32.99h3.661" stroke="#231f20" stroke-width="2px"></path></g></svg></div>
+                
+                <h4>First comment</h4>
+                <p>Include a first comment when you schedule Instagram posts</p>
+            </div>
+            <div>
+                <div><svg width="100%" height="100%" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" space="preserve" serif="http://www.serif.com/" fill-rule="evenodd" clip-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3"><path id="Re-Buffer" fill="none" d="M0 0h60v60H0z"></path><g id="Shop grid" fill="none" stroke="#231f20" stroke-width="2px"><path d="M11.138 11.975h6.085l7.824 27.818h25.211L55 18.929H24.178"></path><circle cx="30.152" cy="47.437" r="3.479"></circle><circle cx="45.335" cy="47.437" r="3.479"></circle><path d="M46.776 24.768l-1.441 9.351M37.638 24.768v9.351M28.5 24.768l1.652 9.351M4.135 25.713h7.758M8.406 37.966h7.758M2 32.078h12.028"></path></g></svg></div>
+                <h4>Shop Grid</h4>
+                <p>Drive traffic and sales to your shop from your Instagram bio</p>
+            </div>
+            <div>
+                <div><svg width="100%" height="100%" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" space="preserve" fill-rule="evenodd" clip-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3"><path fill="none" d="M0 .004h60v59.991H0z"></path><g id="Reminders" stroke="#231f20"><path d="M33.887 45.604H11v-6.232h.001a4.427 4.427 0 0 0 3.502-4.33V24.695c0-7.033 4.92-12.927 11.504-14.424" fill="none" stroke-width="2px"></path><path d="M44.058 30.1v4.942a4.427 4.427 0 0 0 3.503 4.33v6.232H24.675M11 39.645h20.819M37.212 39.645h10.349" fill="none" stroke-width="2px"></path><circle cx="37.1" cy="16.975" r="7.975" fill="none" stroke-width="2px"></circle><path d="M33.337 50.194A3.807 3.807 0 0 1 29.531 54a3.807 3.807 0 0 1-3.805-3.806" fill="none" stroke-width="2px"></path><path d="M37.006 15.592c.486 0 .927.112 1.321.337.395.225.705.533.93.924.225.391.337.826.337 1.305 0 .494-.14.952-.42 1.372a3.03 3.03 0 0 1-1.118 1.001 3.154 3.154 0 0 1-2.394.238 2.119 2.119 0 0 1-.747-.365.843.843 0 0 1-.221-.31.93.93 0 0 1-.089-.376c0-.133.057-.253.172-.36a.632.632 0 0 1 .448-.16c.132 0 .298.07.498.21.309.192.582.288.818.288a1.803 1.803 0 0 0 1.488-.774c.158-.236.238-.491.238-.764 0-.398-.137-.722-.41-.973a1.386 1.386 0 0 0-.973-.376c-.17 0-.321.022-.454.066a4.28 4.28 0 0 0-.475.199 3.474 3.474 0 0 1-.315.144.655.655 0 0 1-.238.044c-.288 0-.492-.077-.614-.232a.867.867 0 0 1-.183-.553c0-.074.004-.125.011-.155l.343-2.743a.634.634 0 0 1 .227-.382.67.67 0 0 1 .437-.149h3.197a.6.6 0 0 1 .442.177.6.6 0 0 1 .177.442c0 .17-.059.312-.177.426a.607.607 0 0 1-.442.172h-2.744l-.21 1.604a1.98 1.98 0 0 1 .531-.2c.214-.051.417-.077.609-.077z" fill="#231f20" fill-rule="nonzero" stroke-width="0.5px" stroke-linecap="butt" stroke-miterlimit="1.41421"></path></g></svg></div>
+                
+                <h4>Reminders</h4>
+                <p>Plan posts in advance and get notifications to post natively</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="container-4">
+        <div>
+            <h2>Plan and prepare your TikToks and Stories</h2>
+            <p>Plan and set reminders for your Stories and TikTok videos. You will receive a mobile notification when it’s time to share.</p>
+        </div>
+        <div>
+            <img src="https://static.buffer.com/cdn-cgi/image/w=1080,quality=90,format=auto/marketing/static/screenshots/publish-instragram-stories.jpg" alt="">
+        </div>
+    </div>
+
+    <div id="container-5">
+        <h2>140,000+ people like you use Buffer to build their brand on social media every month</h2>
+        <button>Get started</button>
+        <p><i class="fa-solid fa-check"></i>No credit card required<i class="fa-solid fa-check"></i>14-day free trail<i class="fa-solid fa-check"></i>Cancel anytime</p>
+    </div>
+
+    <div id="container-6">
+        <div>
+            <img src="https://static.buffer.com/cdn-cgi/image/w=1080,quality=90,format=auto/marketing/static/ui/buffer-publish-collaboration@2x.jpeg" alt="">
+        </div>
+        <div>
+            <div>
+                <p>COLLABORATION</p>
+                <h2>Collaborate on content with your team</h2>
+                <p>Work together with your team to create content that's high quality, on-brand, and that your audience is going to love.</p>
+            </div>
+            <div class="second-part_6">
+                <div>
+                    <div><svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" serif="http://www.serif.com/" fill-rule="evenodd" clip-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3"><path id="Draft posts" fill="none" d="M0 0h60v60H0z"></path><clipPath><path d="M0 0h60v60H0z"></path></clipPath><g clip-path="url(#a)" fill="none"><path d="M0 .004h60v59.991H0z"></path><g stroke="#000" stroke-width="2"><path d="M46.414 26.738c-2.034 3.257-3.071 7.18-3.281 11.655l-21.415 8.843 5.742-22.964c3.765-.422 7.56-2.069 10.741-4.824"></path><path d="M22.419 46.504l8.729-10.224" stroke-linejoin="miter"></path><path d="M36.414 17.265l12.314 11.096 6.304-7.384L42.718 9.882l-6.304 7.383zM4.032 46.236h11.791"></path></g></g></svg></div>
+                    <h4>Draft posts</h4>
+                    <p>Create drafts, get feedback, and refine content as a team</p>
+                </div>
+                <div>
+                    <div><svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" serif="http://www.serif.com/" fill-rule="evenodd" clip-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3"><path id="Post" fill="none" d="M0 0h60v60H0z"></path><clipPath id="a"><path d="M0 0h60v60H0z"></path></clipPath><g clip-path="url(#a)" fill="none"><path d="M0 .004h60v59.991H0z"></path><g id="Post approvals" stroke="#231f20" stroke-width="2"><path d="M39.568 19.196v-5.227H11.191v33.605h28.377V43.84"></path><path d="M16.418 22.183h8.961M16.418 27.909h7.468M16.418 33.634h9.708M16.418 39.359h14.936M33.868 27.377l5.632 7.095 11.077-14.189" stroke-linejoin="miter"></path></g></g></svg></div>
+                    <h4>Approvals</h4>
+                    <p>Review posts for quality and brand before hitting publish</p>
+                </div>
+                <div>
+                    <div><svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" serif="http://www.serif.com/" fill-rule="evenodd" clip-rule="evenodd" stroke-linecap="round" stroke-miterlimit="3"><path id="Stay sync" fill="none" d="M0 0h60v60H0z"></path><clipPath id="a"><path d="M0 0h60v60H0z"></path></clipPath><g clip-path="url(#a)" fill="none"><path d="M0 .004h60v59.991H0z"></path><g stroke="#231f20" stroke-width="2"><path d="M30.409 20.408c5.698 0 10.323 4.626 10.323 10.323M45.489 39.845c-3.221 4.931-8.789 8.193-15.113 8.193-8.922 0-16.339-6.491-17.784-15.004"></path><path d="M13.714 23.083c2.715-6.527 9.156-11.121 16.662-11.121 9.955 0 18.038 8.083 18.038 18.038"></path><path d="M11.586 16.204l1.174 8.32 7.745-2.697M47.085 46.417l-.577-8.382-7.918 2.136"></path></g></g></svg></div>
+                    <h4>Stay in sync</h4>
+                    <p>Everyone's posts will be shared within your preset schedule</p>
+                </div>
+                <div>
+                    <div><svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" serif="http://www.serif.com/" fill-rule="evenodd" clip-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3"><path id="Account management" fill="none" d="M-.25 0h60v60h-60z"></path><clipPath id="a"><path d="M-.25 0h60v60h-60z"></path></clipPath><g clip-path="url(#a)" fill="none"><g id="Link shortening" stroke="#000" stroke-width="2"><path d="M29.201 38.57l2.355 9.964H10.924l4.306-16.703c-2.607-1.974-4.306-5.197-4.306-8.834 0-6.001 4.623-10.873 10.316-10.873 5.694 0 10.316 4.872 10.316 10.873"></path><path d="M46.954 22.912c3.032-.043 5.527 2.517 5.567 5.712.041 3.196-2.388 5.826-5.42 5.868-3.032.043-5.527-2.517-5.568-5.712-.04-3.196 2.388-5.825 5.421-5.868z" stroke-linecap="butt" stroke-linejoin="miter"></path><path d="M41.519 28.548l-16.587.163M33.094 29.603l.125 3.956M28.297 29.603l.126 3.956" stroke-linejoin="miter"></path></g><path d="M-.25.004h60v59.991h-60z"></path><path d="M-.25.004h60v59.991h-60z"></path></g></svg></div>
+                    <h4>Account management</h4>
+                    <p>Easily share and manage access to each social account</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="container-7">
+        <div>
+            <img src="https://buffer.com/static/testimonials/luis-cancel-huckberry-v2.png" alt="">
+        </div>
+        <div>
+            <p>"</p>
+            <h2>Buffer has made sharing our story and building our brand on social media so much easier.</h2>
+            <div>
+                <p><b>LUIS CANCEL</b>, Managing Editor</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="container-8">
+        <div>
+            <p>PLANNING</p>
+            <h2>Plan out the perfect posting schedule</h2>
+            <p>Queue up content on an automated schedule or choose a custom time for each post. You're in total command of what you share and when.</p>
+        </div>
+        <div>
+            <img src="https://static.buffer.com/cdn-cgi/image/w=1080,quality=90,format=auto/marketing/static/illustrations/buffer-publish-planning@2x.jpeg" alt="">
+        </div>
+    </div>
+
+    <div id="container-9">
+            <div>
+                <img src="https://static.buffer.com/cdn-cgi/image/w=750,quality=90,format=auto/marketing/static/ui/buffer-publish-scheduling@2x.jpeg" alt="">
+                <h4>Scheduling</h4>
+                <p>Create a preset publishing schedule for each social account</p>
+            </div>
+            <div>
+                <img src="https://static.buffer.com/cdn-cgi/image/w=750,quality=90,format=auto/marketing/static/ui/buffer-publish-tailored-posts-v2@2x.jpg" alt="">
+                <h4>Tailored posts</h4>
+                <p>Custom tailor your posts for each social network</p>
+            </div>
+            <div>
+                <img src="https://static.buffer.com/cdn-cgi/image/w=750,quality=90,format=auto/marketing/static/ui/buffer-publish-calendar@2x.jpeg" alt="">
+                <h4>Calendar</h4>
+                <p>Get an at-a-glance view of all the content you have lined up</p>
+            </div>
+    </div>
+
+    <div id="container-10">
+        <h2>140,000+ people like you use Buffer to build their brand on social media every month</h2>
+        <button>Get started</button>
+        <p><i class="fa-solid fa-check"></i>No credit card require
+        <i class="fa-solid fa-check"></i>14-day free trail
+        <i class="fa-solid fa-check"></i>Cancel anytime</p>
+    </div>
+
+    <div id="container-11">
+        <div class="first-11">
+            <a href="https://buffer.com/" target="_blank"><h2>Buffer</h2></a>
+            <div>
+                <div><svg height="20px" width="20px" viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg"><g transform="translate(.074 .32)" fill="current" fill-rule="evenodd"><path d="M6.235 1.18c1.56 0 1.744.003 2.362.032.57.024.88.123 1.085.2.275.107.467.234.672.438.204.205.331.398.438.672.082.205.176.516.2 1.085.03.614.033.802.033 2.362s-.004 1.744-.033 2.362c-.024.57-.122.88-.2 1.085a1.803 1.803 0 0 1-.438.672 1.803 1.803 0 0 1-.672.438c-.204.082-.516.176-1.085.2-.614.029-.802.033-2.362.033s-1.744-.004-2.362-.033c-.57-.024-.88-.123-1.085-.2a1.803 1.803 0 0 1-.671-.438 1.803 1.803 0 0 1-.438-.672c-.082-.204-.177-.516-.201-1.085-.029-.614-.033-.802-.033-2.362s.004-1.744.033-2.362c.024-.57.123-.88.2-1.085.107-.274.234-.467.439-.672.204-.204.397-.331.671-.438.205-.081.516-.176 1.085-.2.618-.029.802-.033 2.362-.033zm0-1.053c-1.588 0-1.785.008-2.407.037C3.206.192 2.78.29 2.41.434a2.83 2.83 0 0 0-1.035.675C1.052 1.433.852 1.76.7 2.145c-.143.373-.241.799-.27 1.417-.029.622-.037.823-.037 2.407 0 1.589.008 1.785.037 2.407C.459 9 .557 9.424.7 9.793c.147.385.348.708.676 1.036.323.323.65.524 1.035.675.373.143.799.242 1.417.27.622.029.823.037 2.407.037 1.585 0 1.785-.008 2.407-.037.623-.028 1.049-.127 1.417-.27a2.83 2.83 0 0 0 1.036-.675c.327-.328.524-.651.675-1.036.144-.373.242-.798.27-1.417.03-.622.037-.823.037-2.407 0-1.588-.008-1.785-.037-2.407-.028-.623-.126-1.048-.27-1.417a2.83 2.83 0 0 0-.675-1.036 2.882 2.882 0 0 0-1.036-.675C9.686.291 9.261.192 8.642.164 8.024.13 7.824.127 6.235.127z"></path><path d="M6.235 2.968a3 3 0 1 0 0 6.002 3 3 0 1 0 0-6.002zm0 4.946a1.948 1.948 0 1 1-.001-3.897 1.948 1.948 0 0 1 .001 3.897z"></path><circle cx="9.355" cy="2.849" r="1"></circle></g></svg></div>
+                <div><svg height="20px" width="20px" viewBox="0 0 7 13" xmlns="http://www.w3.org/2000/svg"><path fill="current" stroke="current" d="M4.232 12.581V6.85h1.936l.29-2.244H4.237V3.177c0-.65.18-1.089 1.113-1.089h1.187V.086C5.963.03 5.386-.004 4.813 0 3.102 0 1.939 1.044 1.939 2.956v1.65H.002V6.85h1.929v5.731h2.3z" fill-rule="evenodd"></path></svg></div>
+                <div><svg height="20px" width="20px" style="position:relative;transform:scale(1.1);top:1px" viewBox="0 0 14 11" xmlns="http://www.w3.org/2000/svg"><path fill="current" stroke="current" d="M4.475 10.398c4.745 0 7.34-3.934 7.34-7.34 0-.111 0-.226-.003-.332a5.277 5.277 0 0 0 1.29-1.339 5.089 5.089 0 0 1-1.483.405c.536-.319.942-.822 1.134-1.428-.5.294-1.048.507-1.637.626a2.579 2.579 0 0 0-4.393 2.354A7.313 7.313 0 0 1 1.405.646a2.57 2.57 0 0 0-.348 1.294c0 .892.454 1.687 1.15 2.145a2.56 2.56 0 0 1-1.167-.32V3.8c0 1.252.889 2.288 2.072 2.53a2.62 2.62 0 0 1-.68.09c-.168 0-.327-.017-.487-.05a2.575 2.575 0 0 0 2.407 1.794 5.175 5.175 0 0 1-3.82 1.064 7.175 7.175 0 0 0 3.943 1.171" fill-rule="evenodd"></path></svg></div>
+                <div><svg height="20px" width="20px" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path fill="current" stroke="current" d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z" fill-rule="evenodd"></path></svg></div>
+                <div><svg height="20px" width="20px" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><path fill="current" stroke="current" d="M11.175.725H1.698a.81.81 0 0 0-.819.802v9.519c0 .442.369.802.819.802h9.477c.455 0 .823-.36.823-.802V1.527a.816.816 0 0 0-.823-.802zm-7 9.478h-1.65V4.897h1.65v5.306zm-.827-6.03a.96.96 0 0 1 0-1.917.96.96 0 0 1 0 1.916zm7.005 6.03h-1.65v-2.58c0-.614-.013-1.408-.856-1.408-.86 0-.99.671-.99 1.363v2.625H5.21V4.897h1.58v.724h.024c.221-.417.758-.855 1.56-.855 1.67 0 1.978 1.097 1.978 2.53v2.907z" fill-rule="nonzero"></path></svg></div>
+                <div><svg height="20px" width="20px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg"><path fill="current" stroke="current" d="M15.236,0.308c-8.015,0 -14.512,6.487 -14.512,14.488c0,6.141 3.822,11.388 9.221,13.498c-0.132,-1.144 -0.239,-2.909 0.047,-4.161c0.263,-1.133 1.697,-7.202 1.697,-7.202c0,0 -0.43,-0.871 -0.43,-2.147c0,-2.015 1.17,-3.517 2.627,-3.517c1.242,0 1.84,0.93 1.84,2.039c0,1.24 -0.789,3.1 -1.207,4.829c-0.346,1.443 0.729,2.623 2.15,2.623c2.58,0 4.563,-2.718 4.563,-6.63c0,-3.47 -2.497,-5.89 -6.068,-5.89c-4.132,0 -6.557,3.088 -6.557,6.284c0,1.24 0.478,2.576 1.075,3.303c0.119,0.143 0.131,0.274 0.095,0.417c-0.107,0.453 -0.358,1.443 -0.406,1.646c-0.059,0.262 -0.215,0.322 -0.489,0.191c-1.816,-0.847 -2.95,-3.482 -2.95,-5.617c0,-4.567 3.32,-8.764 9.591,-8.764c5.028,0 8.946,3.577 8.946,8.371c0,4.996 -3.154,9.015 -7.525,9.015c-1.469,0 -2.855,-0.764 -3.321,-1.67c0,0 -0.728,2.767 -0.907,3.446c-0.323,1.264 -1.207,2.838 -1.804,3.804c1.362,0.418 2.795,0.644 4.3,0.644c8.014,0 14.512,-6.487 14.512,-14.488c0.024,-8.025 -6.474,-14.512 -14.488,-14.512Z"></path></svg></div>
+            </div>
+            <p>Download</p>
+            <div class="third-11">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+                    App Store
+                </button>
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
+                    Google Play
+                </button>
+            </div>
+        </div>
+        <div class="second-11">
+            <div>
+                <h4>Tools</h4>
+               <a class="foot" href="https://buffer.com/publish">Publishing</a> 
+               <a class="foot" href="https://buffer.com/analyze">Analytics</a> 
+               <a class="foot" href="https://buffer.com/engage">Engagement</a> 
+               <a class="foot" href="https://buffer.com/start-page">Start Page</a> 
+               <a class="foot" href="https://buffer.com/extras">Extras</a> 
+            </div>
+            <div>
+                <h4>Resources</h4>
+               <a class="foot" href="https://buffer.com/resources/">Blog</a> 
+               <a class="foot" href="https://buffer.com/library">Content<br>Library</a> 
+               <a class="foot" href="https://buffer.com/extensions">Browser<br>Extension</a> 
+               <a class="foot" href="https://pablo.buffer.com/">Free Image Editor</a>  
+            </div>
+            <div>
+                <h4>Support</h4>
+               <a class="foot" href="https://support.buffer.com/hc/en-us">Help Center</a> 
+               <a class="foot" href="https://status.buffer.com/">Status</a> 
+               <a class="foot" href="https://buffer.com/changelog">Changelog</a> 
+               <a class="foot" href="https://trello.com/b/PDIV7XW3">Product<br>Roadmap</a> 
+            </div>
+            <div>
+                <h4>Company</h4>
+               <a class="foot" href="https://buffer.com/about">About</a> 
+               <a class="foot" href="https://buffer.com/transparency">Transparency</a> 
+               <a class="foot" href="https://buffer.com/journey">Careers</a> 
+               <a class="foot" href="https://buffer.com/accessibility">Accessibility</a> 
+               <a class="foot" href="https://buffer.com/press">Press</a> 
+               <a class="foot" href="https://buffer.com/sitemap">Sitemap</a> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    function my(){
+        window.location.href = "index.html"
+    }
+</script>
